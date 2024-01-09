@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://kit.fontawesome.com/b14005c256.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <header>
+     <!-- <nav>
+        <h2 style="font-weight:600;font-size:20px;">GURRAM KARIMUNISA</h2>
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">contact</a></li>
+            <label for="check" class="close-menu"><i class="fa-solid fa-xmark" ></i></label>
+        </ul>
+         <label for="check" class="open-menu"><i class="fa-solid fa-bars" ></i></label>
+     </nav> -->
+   <div class="logo">gurramkarimunisa</div>
+   <div class="hamburger">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+   </div>
+   <nav class="nav-bar">
+    <ul>
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Projects</a></li>
+        <li><a href="#contact">contact</a></li>
+    </ul>
+   </nav>  
+</header>
+<div class="header-text">
+    <h1>Hi,I'm <span>karimunisa</span><br></h1>
+    <p>Full Stack web Designer</p>
+ </div>
+</div> 
+    <!------------About Me----------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./cropped passport.jpg" style="width:250px;height:350px" alt="">
+                </div>
+                <div class="about-col-2">
+                  <h1 class="sub-title"> About Me</h1>
+                  <p>I'm frontend Developer more passionate on creating web applications which will transforms the people to utilize it constanly with awesome features.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('certifications')">Certifications</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming Languages</span><br>C,Core Java,Python</li>
+                        <li><span>Web Development</span><br>HTML,CSS,Javascript</li>
+                        <li><span>Ms-office</span><br>MS-Word,Ms-Excel,Ms-powerpoint</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021-2023</span><br>Master's in Computer Applications with 85%</li>
+                        <li><span>2018-2021</span><br>Under Graduation in Computer Science with 90%</li>
+                        <li><span>2016-2018</span><br>Board of Intermediate Education with 93%</li>
+                        <li><span>2015-2016</span><br>Board of Secondary Education with 92%</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="certifications">
+                    <ul>
+                        <li><span>Python</span><br>at Skill AP,APSSDC</li>
+                        <li><span>Full Stack Web Development</span><br>at Social Prachar</li>
+                        <li><span>Machine Learning</span><br>at Smart Knower</li>
+                    </ul>
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------Services------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> My Services</h1> 
+            <div class="services-list">
+                <div>
+                    <h2>Web Design</h2>
+                    <p>I'll develop the webapplications as per the user requirements with satifisable features which makes them happy with my smart work </p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <h2>BackEnd Designer</h2>
+                    <p>Stores all the data in a secure manner which will never stealed by hackers</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <h2>App Design</h2>
+                    <p>Establishes amazing features which are more precise in nature </p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>    
+        </div>
+    </div>
+    <!---------------portfolio-------------->
+    <div id="portfolio">
+   <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+    
+        <div class="work">
+            <img src="./random quotes.jpg" alt="wrong">
+            <div class="layer">
+                <h3>Random Quotes App</h3>
+                <p>Visualizes the different quotes randomly</p>
+                <a href="https://gurramkarimunisa.github.io/RandomQuote/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="./todo app.png" alt="wrong">
+            <div class="layer">
+                <h3>To-Do App</h3>
+                <p>These app makes you to record the contents and allows to edit and delete</p>
+                <a href="https://gurramkarimunisa.github.io/Todoapp/"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="./weather app.jpeg" alt="wrong">
+            <div class="layer">
+                <h3>Weather App</h3>
+                <p>These app results the current condition of the weather according to the location</p>
+                <a href="https://gurramkarimunisa.github.io/weatherapp/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+   </div>
+    </div>
+    <!--------contact-------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>karimunisagurram@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+917816013082</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="./karimunisa resumenop.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form onsubmit="sendEmail();reset();return false;">
+                        <input type="text" id="name" name="Name" placeholder="Your Name" required>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" id="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>       
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copy @Karimunisa <i class="fa-solid fa-heart"></i>portfolio</p>
+    </div>
+</div>
+    <script src="script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail(){
+        Email.send({
+    SecureToken:"6d42eef8-b29c-4d33-8f0c-0696c4743d03"
+    To : 'karimunisagurram@gmail.com',
+    From : document.getElementById("email").value,
+    Subject : "New Contact From Enquiry",
+    Body : "Name:"+ document.getElementById("name").value +"<br>Email:"+document.getElementById("email").value +"<br>Message:"+document.getElementById("message").value
+}).then(
+  message => alert("Message sent succesfully")
+);
+}    
+</script>
+</body>
+</html>
